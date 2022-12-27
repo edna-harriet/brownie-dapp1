@@ -61,6 +61,24 @@ Deploy to the testnetHeader anchor link
  
 -$ brownie run scripts/deploy.py --network goerli
 
+# React DApp
+
+# React SPA and Dependacies
+
+-Creat folder a folder for your project and initialise a react SPA app:
+
+-$ npx create-react-app dapp
+
+-$ cd dapp
+
+-Test the installation of the react app:
+
+-$ npm run start 
+
+
+
+
+
 
 
 
