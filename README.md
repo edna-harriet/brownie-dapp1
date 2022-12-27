@@ -49,7 +49,7 @@ Deploy to the testnetHeader anchor link
 
     - .env file:
     
--$ export WEB3_INFURA_PROJECT_ID = <YOUR INFURA ID>
+-$ export WEB3_INFURA_PROJECT_ID = YOUR INFURA ID
  
    - brownie-config.yaml file:
  
