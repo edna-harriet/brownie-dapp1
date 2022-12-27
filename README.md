@@ -13,8 +13,10 @@ Install Brownie - High-level framework for smart contracts development.
 
 -$ pip install eth-brownie
 
--$ brownie -- version
+-$ brownie --version
+
 -$ brownie init
+
 -$ ls
 
 -Explore folders that the Brownie scaffold has created: build, contracts, interfaces, scripts, tests, etc.
