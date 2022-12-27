@@ -46,12 +46,15 @@ Deploy to the testnetHeader anchor link
 -Add an environment variable for the infura key ID.
 
 -For this, create .env and brownie-config.yaml files at the root folder in your project
+
     - .env file:
     
--$ export WEB3_INFURA_PROJECT_ID=<YOUR INFURA ID>
+-$ export WEB3_INFURA_PROJECT_ID = <YOUR INFURA ID>
+ 
    - brownie-config.yaml file:
  
 -dotenv: .env
+ 
 -Deploy the contract in Goerli:
  
 -$ brownie run scripts/deploy.py --network goerli
