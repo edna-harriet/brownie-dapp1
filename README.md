@@ -44,7 +44,7 @@ Execute the testing script:
 
 -$ brownie test -s
 
-# Deploy to the testnetHeader anchor link
+# Deploy to the testnet
 -Add an environment variable for the infura key ID.
 
 -For this, create .env and brownie-config.yaml files at the root folder in your project
@@ -65,7 +65,7 @@ Execute the testing script:
 
 • Incase you encounter FILENOTFOUNDERROR, while in the project folder, run:
 
--# $brownie accounts export account1 /home/harriet/.brownie/accounts/my-goerli-account.json
+-$ brownie accounts export account1 /home/harriet/.brownie/accounts/my-goerli-account.json
 
 
 
