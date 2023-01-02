@@ -61,6 +61,14 @@ Execute the testing script:
  
 -$ brownie run scripts/deploy.py --network goerli
 
+• Account shall be created to the brownie app before the deploy script.
+
+• Incase you encounter FILENOTFOUNDERROR, while in the project folder, run:
+
+-# $brownie accounts export account1 /home/harriet/.brownie/accounts/my-goerli-account.json
+
+
+
 # React DApp
 
 # React SPA and Dependacies
